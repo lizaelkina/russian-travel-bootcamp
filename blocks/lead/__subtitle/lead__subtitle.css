@@ -1,12 +1,12 @@
 .lead__subtitle {
-    margin: 0 0 64px;
-    padding: 0;
-    max-width: 640px;
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 1.2;
-    text-align: center;
-    color: var(--text-color);
+  margin: 0 0 64px;
+  padding: 0;
+  max-width: 640px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--text-color);
 }
