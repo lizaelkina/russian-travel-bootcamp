@@ -1,11 +1,13 @@
-.places__link {
+.cover__subtitle {
   margin: 0;
   padding: 0;
+  max-width: 360px;
+  text-align: center;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.22;
   color: var(--text-color);
-  text-underline-position: under;
+  position: relative;
 }
