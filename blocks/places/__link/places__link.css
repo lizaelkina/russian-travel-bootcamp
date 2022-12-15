@@ -8,4 +8,10 @@
   line-height: 1.22;
   color: var(--text-color);
   text-underline-position: under;
+  opacity: 1;
+  transition: opacity .3s ease;
+}
+
+.places__link:hover {
+  opacity: .8;
 }
