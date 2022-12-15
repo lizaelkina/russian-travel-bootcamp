@@ -1,5 +1,8 @@
 .cover {
   margin: 92px 48px;
+}
+
+.cover__pointer {
   aspect-ratio: 1.6;
   display: flex;
   flex-direction: column;
@@ -11,9 +14,10 @@
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  text-decoration: none;
 }
 
-.cover:before {
+.cover__pointer:before {
   content: "";
   position: absolute;
   top: 0;
@@ -25,7 +29,7 @@
   transition: opacity .3s ease;
 }
 
-.cover:hover:before {
+.cover__pointer:hover:before {
   background-color: #2a2c2f;
   opacity: .8;
 }
