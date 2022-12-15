@@ -1,0 +1,10 @@
+.places__paragraph {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: var(--text-color);
+}

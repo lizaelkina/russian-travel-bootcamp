@@ -1,7 +1,7 @@
-.lead {
+.places {
   box-sizing: border-box;
-  padding: 0 148px 92px;
+  padding: 0 148px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 80px;
 }
