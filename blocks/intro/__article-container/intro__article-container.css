@@ -1,5 +1,4 @@
 .intro__article-container {
-  max-width: 690px;
   display: flex;
   flex-direction: column;
 }
