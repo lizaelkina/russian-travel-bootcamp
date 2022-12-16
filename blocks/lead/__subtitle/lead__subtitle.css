@@ -1,6 +1,6 @@
 .lead__subtitle {
   margin: 0 0 64px;
-  padding: 0;
+  padding: 0 16px;
   max-width: 640px;
   font-family: var(--font-family);
   font-style: normal;
@@ -17,6 +17,13 @@
   }
 }
 
+@media (max-width: 767px) {
+  .lead__subtitle {
+    font-size: clamp(16px, 4vw, 30px);
+    line-height: clamp(20px, 4.8vw, 36px);
+  }
+}
+
 @media (max-width: 320px) {
   .lead__subtitle {
     margin-bottom: 40px;
@@ -25,3 +32,4 @@
     line-height: 1.25;
   }
 }
+

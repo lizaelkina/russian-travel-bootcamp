@@ -1,6 +1,6 @@
 .lead__image {
-  max-width: 984px; /*чтобы не растягивал картинку больше 984px*/
-  max-height: 615px; /*чтобы даже большая картинка вписалась в контейнер*/
+  max-width: 984px;
+  max-height: 615px;
   width: 100%;
   aspect-ratio: 1.6;
   object-fit: cover;
