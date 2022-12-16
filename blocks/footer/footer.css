@@ -5,3 +5,20 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer {
+    box-sizing: border-box;
+    padding: 0 118px 24px 16px;
+    flex-direction: column;
+    align-items: start;
+    gap: 48px;
+  }
+}
