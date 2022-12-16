@@ -36,3 +36,25 @@
     margin: 92px 0;
   }
 }
+
+@media (max-width: 1024px) {
+  .cover__pointer {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__pointer {
+    margin-top: 90px;
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__pointer {
+    margin-top: 66px;
+    margin-bottom: 64px;
+    gap: 16px;
+  }
+}

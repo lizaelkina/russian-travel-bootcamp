@@ -11,3 +11,10 @@
   color: var(--text-color);
   position: relative;
 }
+
+@media (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
