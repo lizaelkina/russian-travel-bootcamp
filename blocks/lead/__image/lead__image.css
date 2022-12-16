@@ -1,5 +1,5 @@
 .lead__image {
-  max-width: 984px;
+  max-width: 984px; /*чтобы не растягивал картинку больше 984px*/
   width: 100%;
   aspect-ratio: 1.6;
   object-fit: cover;
