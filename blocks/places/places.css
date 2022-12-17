@@ -1,6 +1,6 @@
 .places {
   box-sizing: border-box;
-  padding: 0 148px;
+  margin: 0 148px;
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -8,23 +8,23 @@
 
 @media (max-width: 1024px) {
   .places {
-    padding-left: 48px;
-    padding-right: 48px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
 
 @media (max-width: 768px) {
   .places {
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
     gap: 73px;
   }
 }
 
 @media (max-width: 320px) {
   .places {
-    padding-left: 0;
-    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     gap: 50px;
   }
 }
