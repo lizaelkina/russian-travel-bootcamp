@@ -1,6 +1,5 @@
 .lead__title {
   margin: 0 0 32px;
-  padding: 0 16px;
   max-width: 720px;
   font-family: var(--font-family);
   font-style: normal;
@@ -21,6 +20,7 @@
 @media (max-width: 320px) {
   .lead__title {
     margin-bottom: 16px;
+    padding: 0 16px;
     max-width: 288px;
     font-size: 40px;
     line-height: 1.10;

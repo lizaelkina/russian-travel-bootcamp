@@ -1,7 +1,5 @@
 .lead__subtitle {
-  box-sizing: border-box;
   margin: 0 0 64px;
-  padding: 0 16px;
   max-width: 640px;
   font-family: var(--font-family);
   font-style: normal;
@@ -28,6 +26,7 @@
 @media (max-width: 320px) {
   .lead__subtitle {
     margin-bottom: 40px;
+    padding: 0 16px;
     max-width: 288px;
     font-size: 16px;
     line-height: 1.25;

@@ -1,13 +1,13 @@
 .header {
   box-sizing: border-box;
-  padding: 28px 48px 56px;
+  padding: 28px 48px 28px;
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 1024px) {
   .header {
-    padding-bottom: 48px;
+    padding-bottom: 24px;
   }
 }
 
