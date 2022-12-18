@@ -8,5 +8,17 @@
   font-size: 14px;
   line-height: 1.14;
   color: var(--text-color);
+  display: flex;
 }
 
+@media (max-width: 768px) {
+  .footer__copyright {
+    line-height: clamp(14px, 4.8vw, 16px);
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__copyright {
+    line-height: 1;
+  }
+}

@@ -8,6 +8,13 @@
   text-decoration: none;
 }
 
+@media (max-width: 700px) {
+  .footer__link {
+    font-size: clamp(24px, 4vw, 16px);
+    line-height: clamp(24px, 4.8vw, 18px);
+  }
+}
+
 @media (max-width: 320px) {
   .footer__link {
     font-size: 24px;
