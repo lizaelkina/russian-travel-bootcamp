@@ -19,8 +19,7 @@
 
 @media (max-width: 320px) {
   .places__title {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 0 16px;
     font-size: 32px;
     line-height: 1.09;
   }

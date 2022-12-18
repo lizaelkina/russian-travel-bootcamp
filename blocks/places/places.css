@@ -1,8 +1,8 @@
 .places {
   box-sizing: border-box;
   padding: 46px 148px;
-  display: grid;
-  grid-template-columns: minmax(320px, 984px);
+  display: flex;
+  flex-direction: column;
   row-gap: 80px;
 }
 

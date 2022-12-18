@@ -1,5 +1,4 @@
 .places__article-container {
-  box-sizing: border-box;
   display: grid;
   grid-template-columns: min(50%, 460px) 1fr;
   row-gap: 48px;
