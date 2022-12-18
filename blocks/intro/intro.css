@@ -1,7 +1,7 @@
 .intro {
   padding: 46px 148px;
   display: grid;
-  grid-template-columns: 690px auto;
+  grid-template-columns: 690px 1fr;
 
 }
 
