@@ -12,6 +12,13 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .cover__subtitle {
+    font-size: clamp(14px, 4vw, 18px);
+    line-height: clamp(16px, 4.8vw, 22px);
+  }
+}
+
 @media (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;

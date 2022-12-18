@@ -1,11 +1,11 @@
 .cover__pointer {
-  margin: 92px 48px;
-  aspect-ratio: 1.6;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 32px;
+  width: 100%;
+  aspect-ratio: 1.6;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
@@ -31,30 +31,8 @@
   opacity: .8;
 }
 
-@media (max-width: 1024px) {
-  .cover__pointer {
-    margin: 92px 0;
-  }
-}
-
-@media (max-width: 1024px) {
-  .cover__pointer {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover__pointer {
-    margin-top: 90px;
-    margin-bottom: 88px;
-  }
-}
-
 @media (max-width: 320px) {
   .cover__pointer {
-    margin-top: 66px;
-    margin-bottom: 64px;
     gap: 16px;
   }
 }

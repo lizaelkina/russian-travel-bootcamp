@@ -12,6 +12,13 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .cover__title {
+    font-size: clamp(32px, 12.5vw, 72px);
+    line-height: clamp(35px, 13vw, 76px);
+  }
+}
+
 @media (max-width: 320px) {
   .cover__title {
     font-size: 32px;

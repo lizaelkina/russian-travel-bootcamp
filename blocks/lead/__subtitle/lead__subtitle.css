@@ -16,10 +16,10 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .lead__subtitle {
-    font-size: clamp(16px, 4vw, 30px);
-    line-height: clamp(20px, 4.8vw, 36px);
+    font-size: clamp(16px, 5vw, 30px);
+    line-height: clamp(20px, 5.8vw, 36px);
   }
 }
 
