@@ -11,4 +11,4 @@
 - HTML5
 - CCS3
 
-## GitHub Pages [Ссылка](http://localhost:63342/russian-travel-bootcamp/index.html?_ijt=84amn69iv5a04ccs3c0r4s28rf)
+## GitHub Pages [Ссылка](https://lizapetkova.github.io/russian-travel-bootcamp/)
