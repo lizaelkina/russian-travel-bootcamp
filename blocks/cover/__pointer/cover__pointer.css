@@ -27,7 +27,6 @@
 }
 
 .cover__pointer:hover:before {
-  background-color: #2a2c2f;
   opacity: .8;
 }
 
