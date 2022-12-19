@@ -1,11 +1,16 @@
-.places__link {
+.card__paragraph {
   margin: 0;
   padding: 0;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.22;
+  line-height: 1.63;
   color: var(--text-color);
-  text-underline-position: under;
+}
+
+@media (max-width: 768px) {
+  .card__paragraph {
+    font-size: 16px;
+  }
 }
