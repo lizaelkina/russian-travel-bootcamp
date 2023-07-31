@@ -12,6 +12,6 @@
 - HTML5
 - CCS3
 
-## GitHub Pages
+## Ссылка на проект
 
-- [Ссылка на сайт](https://lizapetkova.github.io/russian-travel-bootcamp/)
+- http://responsive-markup.elkacloud.ru
