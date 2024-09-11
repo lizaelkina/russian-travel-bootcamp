@@ -14,4 +14,4 @@
 
 ## Ссылка на проект
 
-- http://responsive-markup.elkacloud.ru
+- https://lizaelkina.github.io/russian-travel-bootcamp/
